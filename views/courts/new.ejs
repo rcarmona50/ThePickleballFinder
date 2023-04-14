@@ -1,0 +1,46 @@
+
+<% layout('layout/boilerplate') %>
+    
+<div class="row">
+    <h1 class="text-center">New Court</h1>
+    <div class="col-6 offset-3">
+       
+       
+        <form action="/courts" method="POST" novalidate class="validated-form" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title" name="court[title]" required>
+            </div>
+            <div class="mb-3">
+                <label for="location" class="form-label">Location</label>
+                <input type="text" class="form-control" id="location" name="court[location]" required>
+            </div>
+            <input type="file" name="image" id="" multiple>
+            <!-- <div class="mb-3">
+                <label for="image" class="form-label">Image URL</label>
+                <input type="text" class="form-control" id="image" name="court[image]" required>
+            </div> -->
+
+            <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+                <div class="input-group">
+                    <span class="input-group-text">$</span>
+                    <input type="text" class="form-control" id="price-label" placeholder="0" name="court[price]" required>
+                    <span class="input-group-text">.00</span>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea type="text" class="form-control" id="description" name="court[description]" required></textarea>
+            </div>
+            
+            <div>
+                <button class="btn btn-primary mb-3">Add Court</button>
+            </div>
+           
+            <a href="/courts">All Courts</a>
+        </form>
+    </div>
+</div>
+
