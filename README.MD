@@ -1,6 +1,8 @@
 
-<h1 align="center">Pickleball Finder App  </h1>
-<h3 align="center">Pickleball Court Finder - A Picklebacll Court Creator - Posts and Comments Web Application</h3>
+<h1 align="center">Pickleball Finder App</h1>
+<h3 align="center">Discover and Review Local Pickleball Courts</h3>
+ 
+<h4>PickleFinder is a user-friendly web app that helps you explore and connect with the fastest growing sport in the US, pickleball. With our intuitive interface, you can effortlessly search for local pickleball courts, add new courts, create user profiles, and leave valuable reviews. Join our growing community and experience the thrill of pickleball, while helping others find the perfect courts to play on!</h4>
 
 Description: This is a full-stack web application built using Javascript, Express, MongoDB, and HTML/CSS. The app, hosted at https://mighty-cliffs-58661.herokuapp.com/, showcases a clean and responsive design, making it easy for users to navigate and interact with the site on various devices.
 
