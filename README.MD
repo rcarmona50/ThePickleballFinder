@@ -1,4 +1,6 @@
-Title: Pickleball Court Finder - A Picklebacll Court Creator - Posts and Comments Web Application
+
+<h1 align="center">Pickleball Finder App  </h1>
+<h3 align="center">Pickleball Court Finder - A Picklebacll Court Creator - Posts and Comments Web Application</h3>
 
 Description: This is a full-stack web application built using Javascript, Express, MongoDB, and HTML/CSS. The app, hosted at https://mighty-cliffs-58661.herokuapp.com/, showcases a clean and responsive design, making it easy for users to navigate and interact with the site on various devices.
 
