@@ -1,30 +1,18 @@
+Title: Pickleball Court Finder - A Picklebacll Court Creator - Posts and Comments Web Application
 
-<<<<<<< HEAD
-    2. mongoose - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous        environment. Mongoose supports Node.js and Deno (alpha).
+Description: This is a full-stack web application built using Javascript, Express, MongoDB, and HTML/CSS. The app, hosted at https://mighty-cliffs-58661.herokuapp.com/, showcases a clean and responsive design, making it easy for users to navigate and interact with the site on various devices.
 
-    3. EJS - view engines, the most popular of which is Embedded Javascript (EJS).
+Key Technologies:
 
-    4. Nodemon - nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+JavaScript: Core programming language used for both frontend and backend development.
+Express: Fast and minimal web application framework for Node.js, utilized for server-side scripting.
+MongoDB: NoSQL document-oriented database, used to store and manage data for the application.
+HTML/CSS: Markup and styling languages used to create and design the user interface.
+Notable Features:
 
-    5. npm i method-override
-
-    6. EJS Mate = Allows boilerplate
-
-
-
-
-Notes:
-
-Mongo in terminal
-1. mongo
-2. show dbs
-3. use "db name"
-4. To view all: db.courts.find()
-   --> collections --> courts
-
-campground = court
-
-Re-seed Database = node seeds/index.js
-
-=======
->>>>>>> refs/remotes/origin/main
+Authentication: Secure user registration and login functionality implemented using Passport.js.
+Authorization: Role-based access control to protect sensitive routes and data within the application.
+Flash Messages: Informative messages displayed to users for better UX (user experience) when performing actions on the site.
+Court Posts and Comments: Users can create, read, update, and delete posts and comments related to court events, fostering engagement and discussion.
+Responsive Web Design: Fluid and adaptive layout that ensures the application looks and functions well on a variety of devices and screen sizes.
+Check out the source code on my GitHub profile to explore the inner workings of this full-stack web application.
